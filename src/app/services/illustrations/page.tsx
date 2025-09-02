@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from "../../components/Footer";
+import Service from "../../components/MovingServices";
 
 export default function Illustrations() {
   return (
@@ -22,107 +23,7 @@ export default function Illustrations() {
           </div>
         </div>
 
-        {/* Scrolling Services Bar */}
-        <div className="relative w-full overflow-hidden py-3 bg-default">
-          <div className="flex items-center space-x-8 w-max">
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">IOS/Android App Development</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Website Development</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Digital Marketing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Graphic Designing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Content Writing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Search Engine Optimization (SEO)</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Point of Sale (POS)</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Cyber Security</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">IOS/Android App Development</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Website Development</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Digital Marketing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Graphic Designing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Content Writing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Search Engine Optimization (SEO)</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Point of Sale (POS)</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Cyber Security</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-          </div>
-        </div>
+        <Service/>
       </section>
 
       {/* Main Content */}

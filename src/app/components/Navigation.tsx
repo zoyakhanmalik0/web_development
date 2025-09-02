@@ -4,6 +4,23 @@ import Link from "next/link";
 import Image from 'next/image';
 import ContactSidebar from "./ContactSidebar";
 
+// Services data array
+export const services = [
+  { name: "Website Development", slug: "website-development" },
+  { name: "Android & iOS Development", slug: "app-development" },
+  { name: "Digital Marketing", slug: "digital-marketing" },
+  { name: "Graphic Designing", slug: "graphic-designing" },
+  { name: "Social Media Marketing", slug: "social-media-marketing" },
+  { name: "Content Writing", slug: "content-writing" },
+  { name: "SEO", slug: "search-engine-optimization" },
+  { name: "Software Development", slug: "software-development" },
+  { name: "Cyber Security", slug: "cyber-security" },
+  { name: "E-Commerce", slug: "e-commerce" },
+  { name: "Illustrations", slug: "illustrations" },
+  { name: "Video Animation", slug: "video-animation" },
+  { name: "Point of Sale (POS)", slug: "point-of-sale" },
+];
+
 export default function Navigation() {
   const [showContact, setShowContact] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -86,23 +103,9 @@ export default function Navigation() {
                 </span>
                 <div className="absolute top-10 border-0 min-w-[15rem] bg-black text-white w-full my-2 rounded max-h-0 overflow-hidden group-hover:max-h-[45rem] duration-300 shadow-lg">
                   <ul className="py-1">
-                    {[
-                      "WEBSITE DEVELOPMENT",
-                      "ANDROID & IOS DEVELOPMENT",
-                      "DIGITAL MARKETING",
-                      "GRAPHIC DESIGNING",
-                      "SOCIAL MEDIA MARKETING",
-                      "CONTENT WRITING",
-                      "SEO",
-                      "SOFTWARE DEVELOPMENT",
-                      "CYBER SECURITY",
-                      "E-COMMERCE",
-                      "ILLUSTRATIONS",
-                      "VIDEO ANIMATION",
-                      "POINT OF SALE (POS)",
-                    ].map((service) => (
-                      <Link key={service} href={`/services/${service.toLowerCase().replace(/ & | /g, "-")}`}>
-                        <li className="hover:bg-gray-800 p-2.5 mx-2 rounded-md transition-colors text-xs">{service}</li>
+                    {services.map((service) => (
+                      <Link key={service.slug} href={`/services/${service.slug}`}>
+                        <li className="hover:bg-gray-800 p-2.5 mx-2 rounded-md transition-colors text-xs">{service.name}</li>
                       </Link>
                     ))}
                   </ul>
@@ -171,31 +174,17 @@ export default function Navigation() {
                 </button>
                 {showMobileServices && (
                   <div id="mobile-services-list" className="pl-4 space-y-2">
-                    {[
-                      "Website Development",
-                      "Android & iOS Development",
-                      "Digital Marketing",
-                      "Graphic Designing",
-                      "Social Media Marketing",
-                      "Content Writing",
-                      "SEO",
-                      "Software Development",
-                      "Cyber Security",
-                      "E-Commerce",
-                      "Illustrations",
-                      "Video Animation",
-                      "Point of Sale (POS)",
-                    ].map((service) => (
+                    {services.map((service) => (
                       <Link
-                        key={service}
-                        href={`/services/${service.toLowerCase().replace(/ & | /g, "-")}`}
+                        key={service.slug}
+                        href={`/services/${service.slug}`}
                         className="block transition-colors py-1 rounded-md text-xs"
                         style={{background:'#000', color:'#fff', border: '1px solid #e41212ff'}}
                         onMouseOver={e => e.currentTarget.style.background='#1a1a1a'}
                         onMouseOut={e => e.currentTarget.style.background='#000'}
                         onClick={() => setShowMobileMenu(false)}
                       >
-                        {service}
+                        {service.name}
                       </Link>
                     ))}
                   </div>

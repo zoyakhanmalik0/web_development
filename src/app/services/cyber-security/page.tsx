@@ -1,126 +1,25 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from "../../components/Footer";
+import Services from "../../components/MovingServices";
 
-export default function CyberSecurity() {
+export default function ECommerce() {
   return (
     <>
       {/* Hero Section */}
       <section className="!w-full bg-cover bg-center bg-black text-white pb-10" style={{ backgroundImage: 'url(/media/bg.0f5970d1.png)' }}>
         <div className="w-full h-full flex items-center justify-center py-48 relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/media/Inner_bg.23beb686.jpg)' }}>
           <div className="flex flex-col justify-center items-center xl:max-w-6xl gap-8 font-semibold text-white">
-            <span className="text-4xl text-center xl:text-7xl">Cybersecurity Services <span className="text-default">(Penetration Testing)</span></span>
+            <span className="text-4xl text-center xl:text-7xl">E-Commerce <span className="text-default">Solutions</span></span>
             
             {/* Breadcrumb */}
             <nav aria-label="breadcrumb" className="">
               <ul className="container flex items-center space-x-2 text-18 font-semibold text-white py-1.5 px-2">
                 <li><Link className="hover:underline" href="/">Home</Link></li>
                 <li className="flex items-center"><span className="mx-2">*</span><Link className="hover:underline" href="/services">Services</Link></li>
-                <li className="flex items-center"><span className="mx-2">*</span><span className="text-default">Cyber security</span></li>
+                <li className="flex items-center"><span className="mx-2">*</span><span className="text-default">E commerce</span></li>
               </ul>
             </nav>
-          </div>
-        </div>
-
-        {/* Scrolling Services Bar */}
-        <div className="relative w-full overflow-hidden py-3 bg-default">
-          <div className="flex items-center space-x-8 w-max">
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">IOS/Android App Development</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Website Development</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Digital Marketing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Graphic Designing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Content Writing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Search Engine Optimization (SEO)</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Point of Sale (POS)</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Cyber Security</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">IOS/Android App Development</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Website Development</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Digital Marketing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Graphic Designing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Content Writing</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Search Engine Optimization (SEO)</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Point of Sale (POS)</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
-            <div className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">Cyber Security</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4"/>
-              </span>
-            </div>
           </div>
         </div>
       </section>
@@ -131,16 +30,16 @@ export default function CyberSecurity() {
           <div className="space-y-12">
             {/* Main Image */}
             <div className="rounded-[32px] overflow-hidden">
-              <Image src="/media/sec1.addd3c5a.jpg" alt="Business people" width={800} height={400} className="w-full object-cover"/>
+              <Image src="/media/sec1.45b345b4.jpg" alt="Business people" width={800} height={400} className="w-full object-cover"/>
             </div>
 
             {/* Content Section */}
             <div className="space-y-6">
-              <p>Our Cybersecurity Services provide businesses with advanced penetration testing to identify and remediate security vulnerabilities before attackers exploit them. We assess your web applications, networks, and systems to uncover weaknesses and ensure compliance with industry standards. Our approach combines automated and manual testing to deliver comprehensive security insights, helping businesses fortify their defenses against cyber threats.</p>
+              <p>Our E-Commerce Solutions are designed to help businesses build, manage, and scale their online stores with ease. Whether you need a custom-built e-commerce website, seamless payment integration, or optimized product listings, we provide end-to-end solutions that drive sales and enhance customer experience. By combining cutting-edge technology with user-friendly design, we help businesses maximize their online potential and increase revenue.</p>
               
-              <h2 className="text-4xl lg:text-5xl text-white">Key <span className="text-default font-semibold">features</span> of <span>cyber security services</span></h2>
+              <h2 className="text-4xl lg:text-5xl text-white">Key <span className="text-default font-semibold">features</span> of <span>e-commerce solutions</span></h2>
               
-              <p>Our penetration testing services help organizations proactively identify security risks and mitigate threats before they cause harm. We simulate real-world attacks using ethical hacking techniques to evaluate your system's resilience. By providing a detailed security assessment, we help businesses strengthen their security posture and maintain compliance with industry regulations.</p>
+              <p>Our e-commerce solutions focus on creating a seamless shopping experience for customers while optimizing business operations. We develop high-performance online stores that are mobile-friendly, easy to navigate, and designed for maximum conversions. From secure payment integration to inventory management, our solutions are tailored to meet your business needs. With built-in SEO and marketing tools, we ensure your store gains visibility and attracts the right audience.</p>
               
               <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
                 <ul className="space-y-4 xl:max-w-lg">
@@ -148,41 +47,41 @@ export default function CyberSecurity() {
                     <span className="bg-transparent rounded-full border-2 p-1 border-default text-center flex !items-center !justify-center">
                       <span className="w-[4px] h-[4px] block bg-default rounded-full"></span>
                     </span>
-                    Web & mobile app security testing.
+                    Custom e-commerce development (Shopify, WooCommerce, Magento).
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="bg-transparent rounded-full border-2 p-1 border-default text-center flex !items-center !justify-center">
                       <span className="w-[4px] h-[4px] block bg-default rounded-full"></span>
                     </span>
-                    Network vulnerability assessment.
+                    Secure payment gateway integration for smooth transactions.
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="bg-transparent rounded-full border-2 p-1 border-default text-center flex !items-center !justify-center">
                       <span className="w-[4px] h-[4px] block bg-default rounded-full"></span>
                     </span>
-                    Cloud security configuration review.
+                    Mobile-optimized, responsive design.
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="bg-transparent rounded-full border-2 p-1 border-default text-center flex !items-center !justify-center">
                       <span className="w-[4px] h-[4px] block bg-default rounded-full"></span>
                     </span>
-                    API security evaluation.
+                    Product catalog management for better visibility.
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="bg-transparent rounded-full border-2 p-1 border-default text-center flex !items-center !justify-center">
                       <span className="w-[4px] h-[4px] block bg-default rounded-full"></span>
                     </span>
-                    Real-world red team simulations.
+                    SEO & conversion optimization for higher sales.
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="bg-transparent rounded-full border-2 p-1 border-default text-center flex !items-center !justify-center">
                       <span className="w-[4px] h-[4px] block bg-default rounded-full"></span>
                     </span>
-                    Compliance & risk alignment (GDPR, ISO, PCI-DSS).
+                    Streamlined order & inventory management.
                   </li>
                 </ul>
                 <div className="h-full overflow-hidden">
-                  <Image src="/media/main.393f7b2c.jpg" alt="Main Image Acciobyte" width={400} height={400} className="w-full h-[230px] aspect-square object-cover rounded-xl"/>
+                  <Image src="/media/main.5747116a.jpg" alt="Main Image Acciobyte" width={400} height={400} className="w-full h-[230px] aspect-square object-cover rounded-xl"/>
                 </div>
               </div>
             </div>
@@ -190,8 +89,8 @@ export default function CyberSecurity() {
             {/* Process Section */}
             <div className="rounded-[32px] overflow-hidden">
               <div className="grid md:grid-cols-1 gap-6">
-                <h2 className="text-4xl lg:text-5xl text-white">Our <span className="text-default font-semibold">process</span> of cyber security services</h2>
-                <p>Our cyber security approach is rooted in a deep understanding of your business and its unique security needs. We start by conducting thorough assessments to identify vulnerabilities and potential risks. Based on the findings, we design a customized security strategy that addresses both immediate and long-term threats. We implement cutting-edge security measures and continuously monitor your systems to detect and mitigate potential issues. With regular updates and incident response protocols in place, we ensure your business remains secure and resilient against any cyber threat.</p>
+                <h2 className="text-4xl lg:text-5xl text-white">Our <span className="text-default font-semibold">process</span> of e-commerce solutions</h2>
+                <p>Our e-commerce development process is centered on creating a customized shopping experience that aligns with your business objectives. We begin by understanding your brand and customer base to design an intuitive and responsive online store. Through seamless integration of payment gateways, product catalogs, and security measures, we ensure a secure, smooth transaction experience.</p>
                 
                 {/* Step 1 */}
                 <div className="flex flex-col md:flex-row md:items-center gap-6">
@@ -204,11 +103,11 @@ export default function CyberSecurity() {
                       </svg>
                       <span className="text-24 text-center text-white flex flex-col">STEP <span className="text-default font-bold">01</span></span>
                     </div>
-                    <h3 className="text-white text-2xl font-bold mb-4">Reconnaissance & Planning</h3>
-                    <p className="leading-relaxed">We gather intelligence about your digital assets, define the testing scope, and identify potential security threats.</p>
+                    <h3 className="text-white text-2xl font-bold mb-4">Discovery & Strategy Development</h3>
+                    <p className="leading-relaxed">We analyze your business needs, target audience, and competition to develop a tailored e-commerce strategy.</p>
                   </div>
                   <div className="relative aspect-[4/3] rounded-[32px] overflow-hidden flex-1 bg-red-400 md:order-2">
-                    <Image src="/media/step1.46e27a0f.jpg" alt="Reconnaissance & Planning" width={400} height={300} className="w-full h-full object-cover"/>
+                    <Image src="/media/step1.32b871b1.jpg" alt="Discovery & Strategy Development" width={400} height={300} className="w-full h-full object-cover"/>
                   </div>
                 </div>
 
@@ -223,11 +122,11 @@ export default function CyberSecurity() {
                       </svg>
                       <span className="text-24 text-center text-white flex flex-col">STEP <span className="text-default font-bold">02</span></span>
                     </div>
-                    <h3 className="text-white text-2xl font-bold mb-4">Vulnerability Assessment & Exploitation</h3>
-                    <p className="leading-relaxed">Using automated scanning and manual testing, we identify security gaps and attempt to exploit them to assess risk levels.</p>
+                    <h3 className="text-white text-2xl font-bold mb-4">Development & Implementation</h3>
+                    <p className="leading-relaxed">Our team designs and builds a fully functional e-commerce platform with integrated payment systems, optimized product pages, and a seamless user experience.</p>
                   </div>
                   <div className="relative aspect-[4/3] rounded-[32px] overflow-hidden flex-1 bg-red-400 md:order-1">
-                    <Image src="/media/step2.5f381c9f.jpg" alt="Vulnerability Assessment & Exploitation" width={400} height={300} className="w-full h-full object-cover"/>
+                    <Image src="/media/step2.bf76bec8.jpg" alt="Development & Implementation" width={400} height={300} className="w-full h-full object-cover"/>
                   </div>
                 </div>
 
@@ -242,11 +141,11 @@ export default function CyberSecurity() {
                       </svg>
                       <span className="text-24 text-center text-white flex flex-col">STEP <span className="text-default font-bold">03</span></span>
                     </div>
-                    <h3 className="text-white text-2xl font-bold mb-4">Reporting & Remediation Support</h3>
-                    <p className="leading-relaxed">We provide a detailed report with findings, risk assessments, and actionable recommendations to fix vulnerabilities and strengthen security.</p>
+                    <h3 className="text-white text-2xl font-bold mb-4">Testing, Launch & Optimization</h3>
+                    <p className="leading-relaxed">Before launch, we conduct rigorous testing to ensure a smooth shopping experience. Post-launch, we continuously monitor and optimize for performance and conversions.</p>
                   </div>
                   <div className="relative aspect-[4/3] rounded-[32px] overflow-hidden flex-1 bg-red-400 md:order-2">
-                    <Image src="/media/step3.9f0fa555.jpg" alt="Reporting & Remediation Support" width={400} height={300} className="w-full h-full object-cover"/>
+                    <Image src="/media/step3.ad3d28f7.jpg" alt="Testing, Launch & Optimization" width={400} height={300} className="w-full h-full object-cover"/>
                   </div>
                 </div>
               </div>
@@ -259,7 +158,7 @@ export default function CyberSecurity() {
                 <div className="border-b border-none rounded-[24px] overflow-hidden bg-[#111] data-[state=open]:bg-[#151515]">
                   <h3 className="flex">
                     <button type="button" className="flex flex-1 items-center justify-between text-sm font-medium transition-all text-left px-6 py-6 hover:no-underline group">
-                      <span className="text-white text-xl font-semibold text-left">How often should penetration testing be conducted?</span>
+                      <span className="text-white text-xl font-semibold text-left">Which e-commerce platforms do you work with?</span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
                       </svg>
@@ -269,7 +168,7 @@ export default function CyberSecurity() {
                 <div className="border-b border-none rounded-[24px] overflow-hidden bg-[#111] data-[state=open]:bg-[#151515]">
                   <h3 className="flex">
                     <button type="button" className="flex flex-1 items-center justify-between text-sm font-medium transition-all text-left px-6 py-6 hover:no-underline group">
-                      <span className="text-white text-xl font-semibold text-left">Will penetration testing disrupt my business operations?</span>
+                      <span className="text-white text-xl font-semibold text-left">Can you integrate third-party tools and payment gateways?</span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
                       </svg>
@@ -279,7 +178,7 @@ export default function CyberSecurity() {
                 <div className="border-b border-none rounded-[24px] overflow-hidden bg-[#111] data-[state=open]:bg-[#151515]">
                   <h3 className="flex">
                     <button type="button" className="flex flex-1 items-center justify-between text-sm font-medium transition-all text-left px-6 py-6 hover:no-underline group">
-                      <span className="text-white text-xl font-semibold text-left">Do you provide remediation support after testing?</span>
+                      <span className="text-white text-xl font-semibold text-left">How do you ensure my e-commerce website is secure?</span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
                       </svg>
@@ -289,7 +188,7 @@ export default function CyberSecurity() {
                 <div className="border-b border-none rounded-[24px] overflow-hidden bg-[#111] data-[state=open]:bg-[#151515]">
                   <h3 className="flex">
                     <button type="button" className="flex flex-1 items-center justify-between text-sm font-medium transition-all text-left px-6 py-6 hover:no-underline group">
-                      <span className="text-white text-xl font-semibold text-left">Is penetration testing necessary for compliance?</span>
+                      <span className="text-white text-xl font-semibold text-left">Can you help with marketing and SEO for my online store?</span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200">
                         <path d="m6 9 6 6 6-6"></path>
                       </svg>
@@ -460,4 +359,4 @@ export default function CyberSecurity() {
       <Footer />
     </>
   );
-} 
+}

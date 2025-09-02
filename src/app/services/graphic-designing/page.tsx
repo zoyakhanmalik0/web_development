@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Footer from "../../components/Footer";
-import DonutBackground from "../../components/DonutBackground";
+import Services from "../../components/MovingServices";
+
 
 export default function GraphicDesigning() {
   return (
-    <DonutBackground density="medium">
       <main className="!w-full bg-cover bg-center bg-black text-white pb-10" style={{ backgroundImage: 'url(/media/bg.0f5970d1.png)' }}>
       <div className="w-full h-full flex items-center justify-center py-48 relative bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/media/Inner_bg.23beb686.jpg)' }}>
         <div className="flex flex-col justify-center items-center xl:max-w-6xl gap-8 font-semibold text-white">
@@ -18,35 +18,9 @@ export default function GraphicDesigning() {
           </nav>
         </div>
       </div>
-      <div className="relative w-full overflow-hidden py-3 bg-default">
-        <div className="flex items-center space-x-8 w-max">
-          {[
-            "IOS/Android App Development",
-            "Website Development",
-            "Digital Marketing",
-            "Graphic Designing",
-            "Content Writing",
-            "Search Engine Optimization (SEO)",
-            "Point of Sale (POS)",
-            "Cyber Security",
-            "IOS/Android App Development",
-            "Website Development",
-            "Digital Marketing",
-            "Graphic Designing",
-            "Content Writing",
-            "Search Engine Optimization (SEO)",
-            "Point of Sale (POS)",
-            "Cyber Security"
-          ].map((service, i) => (
-            <div key={i} className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">{service}</span>
-              <span className="flex justify-center items-center">
-                <img src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" className="w-4 h-4" />
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
+
+            <Services/>  
+
       <div className="container mx-auto py-20">
         <div className="grid lg:grid-cols-[1fr,400px] gap-12 lg:gap-20">
           <div className="space-y-12">
@@ -225,6 +199,5 @@ export default function GraphicDesigning() {
       </section>
       <Footer />
     </main>
-    </DonutBackground>
   );
 } 

@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import Services from "../../components/MovingServices";
+import Footer from "../../components/Footer";
+
 
 export default function VideoAnimationPage() {
   return (
@@ -30,36 +33,8 @@ export default function VideoAnimationPage() {
         </div>
       </section>
 
-      {/* Scrolling Services Bar */}
-      <div className="relative w-full overflow-hidden py-3 bg-default">
-        <div className="flex items-center space-x-8 w-max">
-          {[
-            'IOS/Android App Development',
-            'Website Development',
-            'Digital Marketing',
-            'Graphic Designing',
-            'Content Writing',
-            'Search Engine Optimization (SEO)',
-            'Point of Sale (POS)',
-            'Cyber Security',
-            'IOS/Android App Development',
-            'Website Development',
-            'Digital Marketing',
-            'Graphic Designing',
-            'Content Writing',
-            'Search Engine Optimization (SEO)',
-            'Point of Sale (POS)',
-            'Cyber Security',
-          ].map((service, i) => (
-            <div key={i} className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">{service}</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Astrivix Asteric Image" width={16} height={16} className="w-4 h-4" />
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
+           <Services/>  
+
 
       {/* Main Content */}
       <div className="container mx-auto py-20">
@@ -318,6 +293,7 @@ export default function VideoAnimationPage() {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 } 

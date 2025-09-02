@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Footer from "../../components/Footer";
+import Services from "../../components/MovingServices";
 
 export default function AppDevelopment() {
   return (
@@ -19,36 +20,8 @@ export default function AppDevelopment() {
           </nav>
         </div>
       </div>
-      {/* Skills Marquee Section */}
-      <div className="relative w-full overflow-hidden py-3 bg-default">
-        <div className="flex items-center space-x-8 w-max">
-          {[
-            'IOS/Android App Development',
-            'Website Development',
-            'Digital Marketing',
-            'Graphic Designing',
-            'Content Writing',
-            'Search Engine Optimization (SEO)',
-            'Point of Sale (POS)',
-            'Cyber Security',
-            'IOS/Android App Development',
-            'Website Development',
-            'Digital Marketing',
-            'Graphic Designing',
-            'Content Writing',
-            'Search Engine Optimization (SEO)',
-            'Point of Sale (POS)',
-            'Cyber Security',
-          ].map((skill, idx) => (
-            <div key={idx} className="flex items-center justify-center gap-6">
-              <span className="whitespace-nowrap text-xl font-bold text-black">{skill}</span>
-              <span className="flex justify-center items-center">
-                <Image src="/media/asteric.3e45eb6d.png" alt="Asteric" width={16} height={16} className="w-4 h-4" />
-              </span>
-            </div>
-          ))}
-        </div>
-      </div>
+
+      <Services/>  
       {/* Main Content Section */}
       <div className="container mx-auto py-20">
         <div className="grid lg:grid-cols-[1fr,400px] gap-12 lg:gap-20">
