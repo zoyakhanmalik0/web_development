@@ -1,0 +1,35 @@
+.slides, & > .dg {
+  display: none;
+}
+
+
+.slidesf{
+width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.draw{
+  overflow: visible;
+
+}
+.slides{
+  width: 800px;
+  height: 100vh;
+  overflow: visible;
+}
+
+.slides img{
+  width: auto;
+  height: 300px;
+  overflow: visible;
+}
+#particle-slider{
+  overflow: visible;
+}
+
+.slides{
+  overflow: visible;
+}
+
