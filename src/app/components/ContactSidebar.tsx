@@ -138,7 +138,11 @@ export default function ContactSidebar({ open, onClose }: ContactSidebarProps) {
             </svg>
             <div style={titleStyle}>Email</div>
             <div style={{ ...infoStyle, wordBreak: "break-all" }}>
+<<<<<<< HEAD
               contact@techguar.com
+=======
+              contact@acciobyte.com
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
             </div>
           </div>
 

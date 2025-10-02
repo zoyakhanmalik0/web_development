@@ -222,6 +222,7 @@ export default function About() {
       </section>
       
       {/* FEATURES SECTION */}
+<<<<<<< HEAD
 <section className="py-12 sm:py-16 lg:py-20 bg-black overflow-hidden">
   {/* 🔴 Bottom Left Ring */}
 <div
@@ -245,6 +246,15 @@ export default function About() {
         {/* Left Content */}
         <div data-aos="fade-right" className="h-fit self-start text-center lg:text-start">
           <div className="w-full text-red-500 text-xl sm:text-2xl font-bold flex items-center justify-center lg:justify-start gap-5 my-8 sm:my-12">
+=======
+      <section className="py-12 sm:py-16 lg:py-20 bg-black overflow-x-hidden">
+        
+        <div className="container mx-auto px-4 lg:px-6">
+          <div className="relative mx-auto z-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-16 items-start">
+              <div data-aos="fade-right" className="h-fit self-start text-center lg:text-start">
+                 <div className="w-full text-red-500 text-xl sm:text-2xl font-bold flex items-center justify-center lg:justify-start gap-5 my-8 sm:my-12">
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
             <img
               src="/media/asterisk_default.4355d764.png"
               alt="Astrivix Asteric Image"
@@ -252,6 +262,7 @@ export default function About() {
             />
             <h4>FEATURES</h4>
           </div>
+<<<<<<< HEAD
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mb-4">
             Innovative <span className="text-red-500 font-bold">features</span>
           </h2>
@@ -421,6 +432,184 @@ export default function About() {
   
         <div className="grid lg:grid-cols-2 gap-8 md:gap-16 items-start">
           
+=======
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mb-4">Innovative <span className="text-red-500 font-bold">features</span></h2>
+                <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white mb-4 sm:mb-6 md:mb-8">for your digital success</p>
+              </div>
+              <div className="relative">
+                <div className="relative flex flex-col gap-3 cursor-pointer sm:gap-4 md:gap-6 lg:py-16 xl:py-24 group">
+                  <div className="flex flex-col gap-3 sm:gap-4 md:gap-5">
+  <p className="text-white text-center lg:text-justify leading-relaxed text-sm sm:text-base md:text-lg lg:text-xl">
+    Our digital services empower brands with innovative strategies and solutions for sustainable growth and engagement.
+  </p>
+</div>
+
+ <div
+      className="absolute top-[30px] right-[-260px] z-0 pointer-events-none"
+      style={{ width: "500px", height: "500px" }}
+    >
+      <div
+        style={{
+          width: "70%",
+          height: "70%",
+          borderRadius: "50%",
+          border: "40px solid rgba(239,68,68,0.45)",
+          filter: "blur(32px) brightness(0.6)",
+          boxShadow: "0 0 3px 0.5px #ef4444, 0 0 6px 1px #ef4444",
+        }}
+      />
+    </div>
+
+                  <Link className="mt-4 flex !justify-center lg:!justify-start gap-3 md:gap-4 group" href="/about">
+                    <button className="inline-flex items-center justify-center px-5 md:px-8 py-1.5 md:py-2 rounded-full bg-gray-600 text-white font-bold text-base md:text-lg whitespace-nowrap">
+                      Learn More
+                    </button>
+                    <span className="w-10 h-10 md:w-12 md:h-12 sm:w-14 sm:h-14 rounded-full flex items-center justify-center bg-red-500 transform rotate-[-45deg] transition-all duration-300 ease-in-out group-hover:rotate-0 group-hover:bg-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-right text-base md:text-lg sm:text-22 !text-black rounded-full">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                      </svg>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+           <div className="grid lg:grid-cols-5 gap-3 sm:gap-4 md:gap-6 mt-6 md:mt-8 p-3 sm:mt-10">
+  {/* Left card */}
+  <div
+    data-aos="fade-up"
+    className="bg-blackfade2/40 backdrop-blur-lg p-6 md:p-10 rounded-2xl md:rounded-[32px] overflow-hidden group hover:bg-[#151515] transition-colors duration-300 col-span-5 lg:col-span-3"
+  >
+    <div className="relative overflow-hidden rounded-2xl md:rounded-[32px]">
+      <Image
+        src="/2.png"
+        alt="Custom Branding Solutions"
+        width={1000}
+        height={600}
+        className="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+      />
+    </div>
+    <div className="p-4 md:p-6 lg:p-8">
+      <h3 className="text-white text-xl md:text-2xl font-semibold mb-2 md:mb-3">
+        Custom Branding Solutions
+      </h3>
+      <p className="text-gray-400 text-sm md:text-base">
+        Unique brand identity development, including logos, color palettes.
+      </p>
+    </div>
+  </div>
+  
+ <div
+      className="absolute bottom-[-230px] left-[-360px] z-0 pointer-events-none"
+      style={{ width: "500px", height: "500px" }}
+    >
+      <div
+        style={{
+          width: "70%",
+          height: "70%",
+          borderRadius: "50%",
+          border: "40px solid rgba(239,68,68,0.45)",
+          filter: "blur(32px) brightness(0.6)",
+          boxShadow: "0 0 3px 0.5px #ef4444, 0 0 6px 1px #ef4444",
+        }}
+      />
+    </div>
+
+  {/* Right card */}
+  <div
+    data-aos="fade-up"
+    className="bg-blackfade2/40 backdrop-blur-lg p-6 md:p-10 rounded-2xl md:rounded-[32px] overflow-hidden group hover:bg-[#151515] transition-colors duration-300 col-span-5 lg:col-span-2"
+  >
+    <div className="relative overflow-hidden rounded-2xl md:rounded-[32px]">
+      <Image
+        src="https://res.cloudinary.com/dbcmdtr3r/image/upload/v1752998901/dddm.b39136e5_mhs0oh.jpg"
+        alt="Data-Driven Digital Marketing"
+        width={1000}
+        height={600}
+        className="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+      />
+    </div>
+    <div className="p-4 md:p-6 lg:p-8">
+      <h3 className="text-white text-xl md:text-2xl font-semibold mb-2 md:mb-3">
+        Data-Driven Digital Marketing
+      </h3>
+      <p className="text-gray-400 text-sm md:text-base">
+        Strategies combining SEO, PPC, content marketing
+      </p>
+    </div>
+  </div>
+</div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* CONTENT CREATION SECTION */}
+            <section data-aos="fade-up" className="py-20">
+              
+              <div className="container mx-auto">
+                <div className="relative bg-blackfade2/40 backdrop-blur-lg rounded-[32px] p-12 lg:p-20" style={{ opacity: 1, transform: 'none' }}>
+                  <div className="flex justify-between items-start mb-20">
+                    <div className="max-w-2xl">
+                      <h2 className="text-3xl lg:text-4xl text-white font-semibold mb-4">Content Creation And Strategy</h2>
+                      <p className="text-gray-400 text-lg">High-quality, engaging content across blogs<span className="inline-block w-2 h-2 bg-default rounded-full mx-2 mb-0.5"></span>videos, and graphics designed to captivate and retain audiences.</p>
+                    </div>
+                    <div className="hidden lg:block relative" style={{ width: '150px', height: '150px' }}>
+                      <div className="absolute inset-0" style={{ animation: 'spin 15s linear infinite' }}>
+                        <svg viewBox="0 0 100 100" className="w-full h-full">
+                          <defs>
+                            <path id="circle" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"></path>
+                          </defs>
+                          <text fill="#86c232" fontSize="12">
+                            <textPath href="#circle" className="uppercase tracking-[0.9px]">Get free consultation • Get free consultation •</textPath>
+                          </text>
+                        </svg>
+                        <div className="absolute inset-0 flex items-center justify-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-arrow-down w-6 h-6 text-default">
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <Swiper
+                    slidesPerView={2.2}
+                    spaceBetween={20}
+                    autoplay={{ delay: 2000, disableOnInteraction: false }}
+                    loop={true}
+                    modules={[Autoplay]}
+                    className="px-6"
+                    breakpoints={{
+                      640: { slidesPerView: 3.2 },
+                      1024: { slidesPerView: 4.2 },
+                    }}
+                  >
+                    {[
+                      { src: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1752999747/behance.3e543e62_nmruw8.png", alt: "Behance" },
+                      { src: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1752999747/trello.9ae4fd8e_lukts0.png", alt: "Trello" },
+                      { src: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1752999746/slack.dd220c30_kbgl1y.png", alt: "Slack" },
+                      { src: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1752999747/asana.f6fb7f2f_d7sgsh.png", alt: "Asana" },
+                      { src: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1752999196/upwork.687e3881_tl99is.png", alt: "Upwork" },
+                      { src: "https://res.cloudinary.com/dbcmdtr3r/image/upload/v1752999971/fiverr.d1b6a16a_qfhq9e.png", alt: "Fiverr" },
+                    ].map((item, index) => (
+                      <SwiperSlide key={index}>
+                        <div className="flex-shrink-0 bg-[#1a1a1a] rounded-2xl px-8 py-6 flex items-center justify-center min-w-[200px]">
+                          <img src={item.src} alt={item.alt} width="100" height="30" className="w-auto h-8 brightness-100" draggable="false" />
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+              </div>
+            </section>
+      
+      
+      {/* Our Team Section */}
+      <div className="container relative mx-auto px-4 !z-20">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-16 items-start">
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
           <div className="h-fit self-start text-center lg:text-start">
             <div className="w-full text-red-500 text-xl sm:text-2xl font-bold flex items-center justify-center lg:justify-start gap-5 my-8 sm:my-12">
             <img
@@ -447,7 +636,10 @@ export default function About() {
                   solutions for sustainable growth and engagement.
                 </p>
               </div>
+<<<<<<< HEAD
               
+=======
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
               <a
                 className="mt-4 flex !justify-center lg:!justify-start gap-3 md:gap-4 group"
                 href="#"

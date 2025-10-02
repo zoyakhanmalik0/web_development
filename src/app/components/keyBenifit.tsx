@@ -114,6 +114,7 @@ const BenefitCard: React.FC<BenefitCardProps> = ({ id, icon, title, description 
 // --- Main Section ---
 const BenefitsSection: React.FC = () => (
   <div className="relative bg-black text-gray-200 font-sans min-h-screen overflow-hidden px-4 sm:px-6 lg:px-8">
+<<<<<<< HEAD
    
     
       {/* 🔴 Bottom Left Ring */}
@@ -129,6 +130,35 @@ const BenefitsSection: React.FC = () => (
       border: "60px solid rgba(239,68,68,0.45)", 
       filter: "blur(40px) brightness(0.6)",
       boxShadow: "0 0 16px 4px #ef4444",
+=======
+    {/* 🔴 Top Right Ring */}
+    <div className="absolute top-[40px] right-[-150px] z-0 pointer-events-none w-[500px] h-[500px]">
+      <div
+        style={{
+          width: "70%",
+          height: "70%",
+          borderRadius: "50%",
+          border: "40px solid rgba(239,68,68,0.45)",
+          filter: "blur(32px) brightness(0.6)",
+          boxShadow: "0 0 3px 0.5px #ef4444, 0 0 6px 1px #ef4444",
+        }}
+      />
+    </div>
+    
+      {/* 🔴 Ring Bottom Left */}
+ <div
+  className="absolute bottom-[-150px] left-[-120px] z-0 pointer-events-none"
+  style={{ width: "500px", height: "500px" }}
+>
+  <div
+    style={{
+      width: "70%",
+      height: "70%",
+      borderRadius: "50%",
+      border: "40px solid rgba(239,68,68,0.45)",
+      filter: "blur(32px) brightness(0.6)",
+      boxShadow: "0 0 3px 0.5px #ef4444, 0 0 6px 1px #ef4444",
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
     }}
   />
 </div>

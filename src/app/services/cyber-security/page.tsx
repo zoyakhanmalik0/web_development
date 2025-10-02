@@ -23,7 +23,11 @@ export default function ECommerce() {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
 <Services/>
+=======
+
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
       {/* Main Content */}
       <div className="container mx-auto py-20">
         <div className="grid lg:grid-cols-[1fr,400px] gap-12 lg:gap-20">

@@ -118,8 +118,11 @@ export default function Projects() {
 
       {/* Projects Grid Section */}
       <section className="pb-20">
+<<<<<<< HEAD
 
         
+=======
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
         <div className="container mx-auto px-4">
           {/* Category Tabs */}
           <div className="py-12">

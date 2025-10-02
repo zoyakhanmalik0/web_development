@@ -29,7 +29,11 @@ export default function Footer() {
               +447861402051
             </p>
             <p className="font-medium hover:text-red-500 transition-colors duration-300 cursor-pointer">
+<<<<<<< HEAD
               contact@techguar.com
+=======
+              contact@acciobyte.com
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
             </p>
           </div>
 
@@ -132,7 +136,11 @@ export default function Footer() {
           {/* Copyright Section */}
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-white text-sm">
+<<<<<<< HEAD
               © 2025 — TechGuar All Rights Reserved.
+=======
+              © 2025 — Acciobyte All Rights Reserved.
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
             </p>
           </div>
         </div>

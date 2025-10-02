@@ -3,7 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 import Footer from "../components/Footer";
 import Services from "../components/MovingServices";
+<<<<<<< HEAD
 import Logo from "../components/TechGuarLogo";
+=======
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
 import { useState, useEffect } from "react";
 import { Phone, Mail, MapPin } from "lucide-react";
 
@@ -93,7 +96,11 @@ export default function ContactPage() {
     <div
       className="!w-full bg-cover bg-center bg-black text-white pb-10 relative overflow-hidden"
       style={{ backgroundImage: "url(/media/bg.0f5970d1.png)" }}
+<<<<<<< HEAD
       >
+=======
+    >
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
       {/* Red Dim Circle Background Effect */}
       <RedDimCircle />
       

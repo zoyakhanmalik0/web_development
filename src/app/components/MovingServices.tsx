@@ -15,7 +15,11 @@ const ScrollingServicesBar = () => {
         <div
           className="whitespace-nowrap flex items-center gap-6 text-black font-bold text-xl md:text-2xl"
           style={{
+<<<<<<< HEAD
             animation: "marquee 50s linear infinite",
+=======
+            animation: "marquee 60s linear infinite",
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
             fontFamily: "'Sagarana', serif",
           }}
         >

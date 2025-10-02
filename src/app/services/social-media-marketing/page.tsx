@@ -88,6 +88,7 @@ export default function SocialMediaMarketing() {
                   </div>
                 </div>
               </div>
+<<<<<<< HEAD
 
               {/* FAQ Section */}
               <div className="mx-auto !mt-24">
@@ -299,3 +300,14 @@ export default function SocialMediaMarketing() {
     </section>
   );
 }
+=======
+            </div>
+          </div>
+          {/* Sidebar and other sections can be added here if needed */}
+        </div>
+      </div>
+      <Footer />
+    </section>
+  );
+} 
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1

@@ -100,6 +100,7 @@ export default function Projects() {
       {/* Render cursor dot */}
       <CursorDot />
 
+<<<<<<< HEAD
       {/* Process Section */}
       <section className="bg-black py-16 md:py-24 relative overflow-hidden">
         <div className="container mx-auto px-4 lg:px-8">
@@ -157,12 +158,19 @@ export default function Projects() {
 
       {/* Projects Grid Section */}
       {/* <section> */}
+=======
+      
+
+      {/* Projects Grid Section */}
+      <section>
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
         <div className="container mx-auto">
           {/* Tabs */}
           <div className="py-12 flex justify-center flex-wrap gap-4">
             
             {categories.map((cat) => (
               <button
+<<<<<<< HEAD
                 key={cat}
                 type="button"
                 onClick={() => setActiveCategory(cat)}
@@ -181,6 +189,27 @@ export default function Projects() {
               >
                 {cat}
               </button>
+=======
+  key={cat}
+  type="button"
+  onClick={() => setActiveCategory(cat)}
+  style={{
+    minWidth: 120,
+    padding: "12px 32px",
+    borderRadius: "9999px",
+    fontSize: "18px",
+    fontWeight: 600,
+    cursor: "pointer",
+    border: "none",
+    transition: "all 0.3s ease",
+    backgroundColor: activeCategory === cat ? "red" : "#222",
+    color: "white",
+  }}
+>
+  {cat}
+</button>
+
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
             ))}
           </div>
 

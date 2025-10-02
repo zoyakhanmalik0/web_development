@@ -105,6 +105,7 @@ export default function Page() {
 
   return (
     <div className="bg-black text-gray-200 min-h-screen font-sans relative overflow-hidden">
+<<<<<<< HEAD
        {/* 🔴 Bottom Left Ring */}
 <div
   className="absolute top-10 right-[-250px] z-0 pointer-events-none"
@@ -118,6 +119,41 @@ export default function Page() {
       border: "60px solid rgba(239,68,68,0.45)", 
       filter: "blur(40px) brightness(0.6)",
       boxShadow: "0 0 16px 4px #ef4444",
+=======
+      {/* 🔴 Blurred Ring - Top Right */}
+            {/* 🔴 Ring Top Right */}
+ <div
+  className="absolute top-[40px] right-[-220px] z-0 pointer-events-none"
+  style={{ width: "500px", height: "500px" }}
+>
+  <div
+    style={{
+      width: "70%",
+      height: "70%",
+      borderRadius: "50%",
+      border: "40px solid rgba(239,68,68,0.45)",
+      filter: "blur(32px) brightness(0.6)",
+      boxShadow: "0 0 3px 0.5px #ef4444, 0 0 6px 1px #ef4444",
+    }}
+  />
+</div>
+
+
+
+      {/* 🔴 Ring Bottom Left */}
+ <div
+  className="absolute bottom-[-150px] left-[-220px] z-0 pointer-events-none"
+  style={{ width: "600px", height: "600px" }}
+>
+  <div
+    style={{
+      width: "70%",
+      height: "70%",
+      borderRadius: "50%",
+      border: "40px solid rgba(239,68,68,0.45)",
+      filter: "blur(32px) brightness(0.6)",
+      boxShadow: "0 0 3px 0.5px #ef4444, 0 0 6px 1px #ef4444",
+>>>>>>> 202608e82b0a44b35e1f164faca2153969de5cf1
     }}
   />
 </div>
